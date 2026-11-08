@@ -1,0 +1,14 @@
+name: RoyalArmy
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: A faction-based medieval army recruitment plugin.
+commands:
+  army:
+    description: Get the Royal Banner or open recruitment.
+    usage: /army [banner|recruit]
+    permission: royalarmy.recruit
+permissions:
+  royalarmy.recruit:
+    description: Allows access to the Royal Army recruitment menu.
+    default: true
